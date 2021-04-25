@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_margin="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.shehuan.niv.NiceImageView
+        app:corner_radius="6dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/guess_item1"
+        android:id="@+id/list_niv"
+        android:layout_width="match_parent"
+        android:layout_height="168dp"/>
+    <TextView
+        android:id="@+id/list_title_tx"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="巴黎西装男"
+        android:layout_width="match_parent"
+        android:layout_height="65px"/>
+
+</LinearLayout>

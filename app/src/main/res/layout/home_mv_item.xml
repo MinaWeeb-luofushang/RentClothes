@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="255dp"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.shehuan.niv.NiceImageView
+        android:padding="1dp"
+        android:background="@drawable/fillet"
+        android:id="@+id/item_mv_niv"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="9dp"
+        android:layout_width="match_parent"
+        app:corner_radius="18dp"
+        android:scaleType="fitXY"
+        android:layout_height="200dp"
+        android:src="@drawable/banner_1" />
+    <RelativeLayout
+        android:paddingLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="15dp">
+        <TextView
+            android:id="@+id/item_label_tv"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="@string/home_like_MV_con"/>
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_toLeftOf="@+id/item_number_tv"
+            android:src="@drawable/eye_icon"
+            android:layout_width="20dp"
+            android:layout_height="15dp"/>
+        <TextView
+            android:layout_alignParentRight="true"
+            android:textColor="@color/colorStatusBar"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:id="@+id/item_number_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="@string/home_like_more"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

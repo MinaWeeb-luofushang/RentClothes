@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">掌尚租衣</string>
+    <string name="nav_home">大厅</string>
+    <string name="nav_sort">分类</string>
+    <string name="nav_car">收藏</string>
+    <string name="nav_my">我的</string>
+    <string name="head_txt_select">搜索 品牌/类型/价格</string>
+    <string name="head_txt_cancel">搜索</string>
+    <string name="home_like">猜你想租</string>
+    <string name="home_like_more">更多</string>
+    <string name="home_like_MV">优质服装MV</string>
+    <string name="home_like_item">猜想你喜欢是</string>
+    <string name="home_like_MV_con">特写西装 完美MV 榜单前十</string>
+    <string name="home_like_MV_number">13145看过</string>
+    <string name="home_scroll_end">已经滑动到底了。。。</string>
+
+</resources>

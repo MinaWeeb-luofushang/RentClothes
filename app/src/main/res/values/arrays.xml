@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spingarr">
+        <item>选择你的过往</item>
+        <item>12~~16  old</item>
+        <item>17~~23  old</item>
+        <item>24~~36  old</item>
+        <item>37~~46  old</item>
+        <item>46~~56  old</item>
+        <item>60~~  old</item>
+        <item>其他</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorselfBg"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_marginTop="18dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/car_goods_tv"
+            android:textColor="@color/colorMesgConBg"
+            android:layout_alignParentLeft="true"
+            android:textSize="14sp"
+            android:text="2020/5/25  15:54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/car_pays_tv"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/colorMainNavTxTrue"
+            android:textSize="15sp"
+            android:text="未下单"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="138dp">
+        <com.shehuan.niv.NiceImageView
+            android:id="@+id/car_goods_iv"
+            app:corner_radius="10dp"
+            android:layout_weight="1.8"
+            android:scaleType="fitXY"
+            android:src="@drawable/car_item1"
+            android:layout_alignParentLeft="true"
+            android:layout_width="match_parent"
+            android:layout_height="108dp"/>
+
+                    <RelativeLayout
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:id="@+id/car_con_tv"
+                            android:textColor="@color/colorStatusBar"
+                            android:textSize="16sp"
+                            android:text="我是你爸爸 儿子 你这个小老虎 阿斯蒂芬就阿斯顿撒旦"
+                            android:gravity="left"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"/>
+
+                        <TextView
+                            android:textSize="15sp"
+                            android:textColor="@color/colorMainNavTxTrue"
+                            android:textStyle="bold"
+                            android:id="@+id/car_money_tv"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignBottom="@+id/car_con_tv"
+                            android:text="￥99.9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:textColor="@color/colorStatusBar"
+                            android:layout_alignBottom="@+id/car_con_tv"
+                            android:layout_toLeftOf="@+id/car_money_tv"
+                            android:text="数量1套，总金额："
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:textColor="@color/colorStatusBar"
+                            android:gravity="center"
+                            android:background="@drawable/fillet_check"
+                            android:id="@+id/car_pbtn_tv"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentBottom="true"
+                            android:text="查看支付"
+                            android:layout_width="90dp"
+                            android:layout_height="30dp"/>
+
+                        <TextView
+                            android:textColor="@color/colorStatusBar"
+                            android:layout_toLeftOf="@+id/car_pbtn_tv"
+                            android:gravity="center"
+                            android:background="@drawable/fillet"
+                            android:id="@+id/car_delete_tv"
+                            android:layout_alignParentBottom="true"
+                            android:text="删除"
+                            android:layout_marginRight="30dp"
+                            android:layout_width="60dp"
+                            android:layout_height="30dp"/>
+
+
+
+
+                    </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

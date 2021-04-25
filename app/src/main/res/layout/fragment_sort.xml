@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorselfBg"
+    android:padding="9dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/sort_girl_tv"
+            android:background="@drawable/fillet_check"
+            android:text="女士"
+            android:textSize="21sp"
+            android:textColor="@color/colorTheme"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/sort_man_tv"
+            android:background="@drawable/fillet"
+            android:text="男士"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:background="@drawable/fillet"
+            android:gravity="center"
+            android:textDirection="0"
+            android:layout_alignParentRight="true"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner2"
+            android:entries="@array/spingarr"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_weight="2.36"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ListView
+                android:id="@+id/sort_left_lv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="5dp"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/sort_select_tv"
+                android:textColor="@color/white"
+                android:text="华丽裙子"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="26dp"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_weight="1"
+                android:id="@+id/sort_right_rlv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

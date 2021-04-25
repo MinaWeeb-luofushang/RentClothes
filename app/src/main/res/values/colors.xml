@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorStartPage">#F8ADD4</color>
+    <color name="colorStartTxt">#2D4238</color>
+    <color name="colorguideBtn">#3A97E5</color>
+    <color name="colorRbtnBg">#FFFFFF</color>
+    <color name="colorMainNavTxTrue">#F23C34</color>
+    <color name="colorMainNavTxFalse">#4E5F80</color>
+    <color name="colorFragmentSelfBg">#ECECEC</color>
+    <color name="colorListViewbg">#F0F0F0</color>
+    <color name="colorTheme">#F23C34</color>
+    <color name="colorMesgConBg">#96B1C3</color>
+    <color name="colormesgConWatch">#CF83A9</color>
+    <color name="colormusicBg">#212227</color>
+    <color name="colorStatusBar">#CCCCCC</color>
+    <color name="clorStateHead">#393939</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorselfBg">#232E3C</color>
+    <color name="colorSortHead">#424347</color>
+    <color name="colorActivity">#FAFAFA</color>
+
+
+</resources>
