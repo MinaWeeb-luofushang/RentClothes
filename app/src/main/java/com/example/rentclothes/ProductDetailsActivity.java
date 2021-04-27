@@ -34,6 +34,8 @@ public class ProductDetailsActivity extends AppCompatActivity {
     Banner pro_det_banner;
     @ViewInject(R.id.set_vr_llt)
     LinearLayout set_vr_llt;
+    @ViewInject(R.id.detail_back_llt)
+    LinearLayout detail_back_llt;
 
     //轮播数据图片
     private List<BannerItem> mData = new ArrayList<>();
@@ -50,12 +52,19 @@ public class ProductDetailsActivity extends AppCompatActivity {
         mData.add(new BannerItem(R.drawable.suit1,""));
 
     }
-    @Event(value = {R.id.set_vr_llt})
+
+
+
+    @Event(value = {R.id.set_vr_llt,R.id.detail_back_llt})
     private void listenClick(View view){
         switch (view.getId()){
             case R.id.set_vr_llt:
                 System.out.println("99999999");
                 startActivity(new Intent(this,VrtvActivity.class));
+                break;
+            case R.id.detail_back_llt:
+                onBackPressed();
+                this.finish();
                 break;
             default:
                 break;

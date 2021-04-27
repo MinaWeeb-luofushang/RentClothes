@@ -14,6 +14,7 @@
         android:layout_height="0dp">
 
         <LinearLayout
+            android:id="@+id/detail_back_llt"
             android:orientation="vertical"
             android:layout_alignParentLeft="true"
             android:layout_width="40dp"
@@ -47,6 +48,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
         </LinearLayout>
+
         <LinearLayout
             android:layout_marginRight="50dp"
             android:orientation="vertical"
@@ -110,6 +112,38 @@
                 android:text="预计   2--4天内发货"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
+            <TextView
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="设置数据给adapter 又出错了（setAdapter 报错 ）现在不报错了但是出现 数据适配器没有正常拿到"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:textSize="17sp"
+                android:textColor="@color/colorFragmentSelfBg"
+                android:text="预计   2--4天内发货"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="设置数据给adapter 又出错了（setAdapter 报错 ）现在不报错了但是出现 数据适配器没有正常拿到"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:textSize="17sp"
+                android:textColor="@color/colorFragmentSelfBg"
+                android:text="预计   2--4天内发货"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
 
         </LinearLayout>
 
@@ -123,6 +157,69 @@
         android:layout_weight="2"
         android:layout_width="match_parent"
         android:layout_height="0dp">
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/sevice_icon"
+                android:layout_width="31dp"
+                android:layout_height="31dp"/>
+            <TextView
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:text="客服"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/shoup_icon"
+                android:layout_width="31dp"
+                android:layout_height="31dp"/>
+            <TextView
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:text="收藏"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_margin="9dp"
+            android:textSize="22dp"
+            android:textColor="@color/teal_200"
+            android:text="添加收藏"
+            android:gravity="center"
+            android:background="@drawable/fillet"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.4"/>
+        <TextView
+            android:textStyle="bold"
+            android:layout_margin="9dp"
+            android:textSize="24dp"
+            android:textColor="@color/colorMainNavTxTrue"
+            android:text="立即购买"
+            android:gravity="center"
+            android:background="@drawable/fillet_check"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.4"/>
 
     </LinearLayout>
 

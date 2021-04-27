@@ -84,8 +84,10 @@ public class HomeFragment extends Fragment {
                 openProductDetails();
                 break;
             case R.id.home_like_niv2:
+                openProductDetails();
                 break;
             case R.id.home_like_niv3:
+                openProductDetails();
                 break;
             default:
                 break;

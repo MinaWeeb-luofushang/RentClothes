@@ -300,6 +300,7 @@
                 android:textSize="20sp"
                 android:text="@string/home_like_MV"/>
             <TextView
+                android:onClick="start_more"
                 android:layout_toLeftOf="@+id/like_mv_iv"
                 android:textColor="@color/colorStatusBar"
                 android:textStyle="bold"
@@ -312,6 +313,7 @@
                 />
 
             <ImageView
+                android:onClick="start_more"
                 android:id="@+id/like_mv_iv"
                 android:layout_alignParentRight="true"
                 android:src="@drawable/like_more"

@@ -78,9 +78,16 @@ public class VrtvActivity extends AppCompatActivity {
     }
 
     @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+//        vr_pan_view.shutdown();
+        finish();
+    }
+
+    @Override
     protected void onDestroy() {
         super.onDestroy();
-        vr_pan_view.shutdown();
+
 
     }
     private Bitmap scaleBitmap(Bitmap origin, float ratio) {
