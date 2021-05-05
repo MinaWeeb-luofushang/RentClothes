@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
@@ -36,6 +37,8 @@ public class ProductDetailsActivity extends AppCompatActivity {
     LinearLayout set_vr_llt;
     @ViewInject(R.id.detail_back_llt)
     LinearLayout detail_back_llt;
+    @ViewInject(R.id.detail_set_order_tv)
+    TextView detail_set_order_tv;
 
     //轮播数据图片
     private List<BannerItem> mData = new ArrayList<>();
@@ -55,16 +58,19 @@ public class ProductDetailsActivity extends AppCompatActivity {
 
 
 
-    @Event(value = {R.id.set_vr_llt,R.id.detail_back_llt})
+    @Event(value = {R.id.set_vr_llt,R.id.detail_back_llt,R.id.detail_set_order_tv})
     private void listenClick(View view){
         switch (view.getId()){
             case R.id.set_vr_llt:
-                System.out.println("99999999");
-                startActivity(new Intent(this,VrtvActivity.class));
+
+//                startActivity(new Intent(this,VrtvActivity.class));
                 break;
             case R.id.detail_back_llt:
                 onBackPressed();
                 this.finish();
+                break;
+            case R.id.detail_set_order_tv:
+                startActivity(new Intent(this,SetOrderActivity.class));
                 break;
             default:
                 break;

@@ -127,22 +127,6 @@
                 android:text="预计   2--4天内发货"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
-            <TextView
-                android:paddingLeft="5dp"
-                android:paddingRight="5dp"
-                android:textSize="20sp"
-                android:textColor="@color/white"
-                android:text="设置数据给adapter 又出错了（setAdapter 报错 ）现在不报错了但是出现 数据适配器没有正常拿到"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
-            <TextView
-                android:paddingLeft="5dp"
-                android:layout_marginTop="5dp"
-                android:textSize="17sp"
-                android:textColor="@color/colorFragmentSelfBg"
-                android:text="预计   2--4天内发货"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
 
         </LinearLayout>
 
@@ -201,18 +185,19 @@
             android:layout_margin="9dp"
             android:textSize="22dp"
             android:textColor="@color/teal_200"
-            android:text="添加收藏"
+            android:text="喜欢收藏"
             android:gravity="center"
             android:background="@drawable/fillet"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="2.4"/>
         <TextView
+            android:id="@+id/detail_set_order_tv"
             android:textStyle="bold"
             android:layout_margin="9dp"
             android:textSize="24dp"
             android:textColor="@color/colorMainNavTxTrue"
-            android:text="立即购买"
+            android:text="立即预定"
             android:gravity="center"
             android:background="@drawable/fillet_check"
             android:layout_width="0dp"

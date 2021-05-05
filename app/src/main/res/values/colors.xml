@@ -28,6 +28,8 @@
     <color name="colorselfBg">#232E3C</color>
     <color name="colorSortHead">#424347</color>
     <color name="colorActivity">#FAFAFA</color>
+    <color name="colorOrderHead">#3BC25C</color>
+    <color name="colorOrderType">#217648</color>
 
 
 </resources>
