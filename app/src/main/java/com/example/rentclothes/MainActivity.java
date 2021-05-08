@@ -145,7 +145,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initPrams(){
-        System.out.println("什么鬼");
         clo_tv_head.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
