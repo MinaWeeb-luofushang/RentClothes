@@ -148,7 +148,7 @@ public class MainActivity extends AppCompatActivity {
         clo_tv_head.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                System.out.println("这里已经走到了git");
+                System.out.println("这里已经走到了git112");
             }
         });
     }
