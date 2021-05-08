@@ -145,11 +145,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initPrams(){
-        System.out.println("什么鬼");
         clo_tv_head.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                System.out.println("这里已经走到了");
+                System.out.println("这里已经112走到了");
             }
         });
     }
